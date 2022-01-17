@@ -1,0 +1,54 @@
+.table{
+	margin-top: 100px;
+}
+#sciout{
+	padding:5px;
+	background: #fafafa;
+	width: 420px;
+}
+.sciOutPut{
+	font-size:50px;
+    padding: 3px 3px;
+    margin: 0px -3px;
+    width: 416px;
+	cursor:text;
+	text-align:right;
+	background-color:#fafafa;
+	border:1px solid #fafafa;
+	border-radius: 0px;
+	color:rgb(26, 24, 24);
+}
+.scifunc{
+	padding: 8px 5px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align:center;
+	width:85px;
+	height:43px;
+	margin:0px -3px;
+	border:1px solid #eeeeee;
+	font-family:arial,helvetica,sans-serif;
+	font-size:16px;
+	color:#000;
+	background-color:#fafafa;
+	cursor: default;
+}
+.white_color{
+	background-color: white;
+	font-weight: bold;
+	font-size:20px;
+	padding: 5px;
+}
+.scifunc1{
+	padding: 5px 5px;
+	height:50px;
+	width: 100px;
+	border:1px white;
+	display: table-cell;
+}
+::placeholder{
+	color:#000;
+}
+.no_border{
+	border: 0ch;
+}

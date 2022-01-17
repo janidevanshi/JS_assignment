@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Scientific Calculator</title>
+    <link rel="icon" type="image/x-icon" href="Calc.png" />
+</head>
+
+<body>
+    <!-- Calculator starts -->
+    <table align="center" style="margin-top: 50px;">
+        <tbody>
+            <tr>
+                <td id="sciout">
+                    <!-- Shows the result in display -->
+                    <div class="calc">
+                        <input type="text" placeholder="0" name="screen" id="screen" class="sciOutPut">
+                    </div>
+                    <!-- Calculator buttons -->
+                    <div class="footer">
+                        <div>
+                            <span class="scifunc no_border">DEG</span>
+                            <span class="scifunc no_border">F-E</span>
+                        </div>
+                        <div>
+                            <span class="scifunc no_border" style="color:gray;">MC</span>
+                            <span class="scifunc no_border" style="color:gray;">MR</span>
+                            <span class="scifunc no_border">M+</span>
+                            <span class="scifunc no_border">M-</span>
+                            <span class="scifunc no_border">MS</span>
+                        </div>
+                        <div>
+                            <!-- Dropdown menu for Trigonometry -->
+                            <div class="scifunc1">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    &#8895; Trigonometry
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><span class="dropdown-item">sin</span></li>
+                                    <li><span class="dropdown-item">cos</span></li>
+                                    <li><span class="dropdown-item">tan</span></li>
+                                    <li><span class="dropdown-item">sin<sup>-1</sup></span></li>
+                                    <li><span class="dropdown-item">cos<sup>-1</sup></span></li>
+                                    <li><span class="dropdown-item">tan<sup>-1</sup></span></li>
+                                </ul>
+                            </div>
+                            <!-- Dropdown menu for function -->
+                            <div class="scifunc1">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    &#402; Function
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><span class="dropdown-item">Abs</span></li>
+                                    <li><span class="dropdown-item">round</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="scifunc">2<sup>nd</sup></span>
+                            <span class="scifunc">&pi;</span>
+                            <span class="scifunc">e</span>
+                            <span class="scifunc">C</span>
+                            <span class="scifunc">
+                                <i class="material-icons">backspace</i>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="scifunc">x<sup>2</sup></span>
+                            <span class="scifunc">1/x</span>
+                            <span class="scifunc">|x|</span>
+                            <span class="scifunc">exp</span>
+                            <span class="scifunc">mod</span>
+                        </div>
+                        <div>
+                            <span class="scifunc">&#8730;x</span>
+                            <span class="scifunc">(</span>
+                            <span class="scifunc">)</span>
+                            <span class="scifunc">n!</span>
+                            <span class="scifunc">/</span>
+                        </div>
+                        <div>
+                            <span class="scifunc">x<sup>y</sup></span>
+                            <span class="scifunc white_color">7</span>
+                            <span class="scifunc white_color">8</span>
+                            <span class="scifunc white_color">9</span>
+                            <span class="scifunc">x</span>
+                        </div>
+                        <div>
+                            <span class="scifunc">10<sup>x</sup></span>
+                            <span class="scifunc white_color">4</span>
+                            <span class="scifunc white_color">5</span>
+                            <span class="scifunc white_color">6</span>
+                            <span class="scifunc">-</span>
+                        </div>
+                        <div>
+                            <span class="scifunc">log</span>
+                            <span class="scifunc white_color">1</span>
+                            <span class="scifunc white_color">2</span>
+                            <span class="scifunc white_color">3</span>
+                            <span class="scifunc">+</span>
+                        </div>
+                        <div>
+                            <span class="scifunc">ln</span>
+                            <span class="scifunc white_color">&plus;/&minus;</span>
+                            <span class="scifunc white_color">0</span>
+                            <span class="scifunc white_color">.</span>
+                            <span class="scifunc" style="background-color: rgb(115, 178, 221);">=</span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- JS file link -->
+    <script src="index.js"></script>
+    <!-- Bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
